@@ -1,0 +1,64 @@
+<!-- Ссылки на соц сети  -->
+<ul class="footer-social__icons">
+							<li class="footer-social__icon">
+								<a href="#" class="footer-social__link">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="footer-social__icon">
+								<a href="#" class="footer-social__link">
+									<i class="fas fa-rss"></i>
+								</a>
+							</li>
+							<li class="footer-social__icon">
+								<a href="#" class="footer-social__link">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li class="footer-social__icon">
+								<a href="#" class="footer-social__link">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</li>
+						</ul>
+
+.footer-social__icon{
+    display: inline-block;
+}
+.footer-social__icon:last-child a{
+	margin-right: 0;
+}
+.footer-social__link{
+	color: #FFF;
+	background: rgba(59,107,170,1);
+	background: -moz-linear-gradient(left, rgba(59,107,170,1) 0%, rgba(59,107,170,1) 67%, rgba(29,54,73,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(59,107,170,1)), color-stop(67%, rgba(59,107,170,1)), color-stop(100%, rgba(29,54,73,1)));
+	background: -webkit-linear-gradient(left, rgba(59,107,170,1) 0%, rgba(59,107,170,1) 67%, rgba(29,54,73,1) 100%);
+	background: -o-linear-gradient(left, rgba(59,107,170,1) 0%, rgba(59,107,170,1) 67%, rgba(29,54,73,1) 100%);
+	background: -ms-linear-gradient(left, rgba(59,107,170,1) 0%, rgba(59,107,170,1) 67%, rgba(29,54,73,1) 100%);
+	background: linear-gradient(to right, rgba(59,107,170,1) 0%, rgba(59,107,170,1) 67%, rgba(29,54,73,1) 100%);
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 1.4em;
+    display: block;
+    padding-top: 5px;
+    margin-right: 17px;
+}
+/*.footer-social__link:hover{
+	color: #42C63F;
+}*/
+responsive 767
+    .footer-social__icons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-social__link{
+        margin-left: 0;
+        height: 60px;
+        width: 60px;
+        font-size: 2em;
+        padding-top: 7px;
+    }

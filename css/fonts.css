@@ -1,0 +1,58 @@
+@font-face{
+	font-family: 'Geometria-Medium';
+	src: url('../fonts/Geometria-Medium.eot');
+	src: url('../fonts/Geometria-Medium.eot?iefix') format('eot'),
+	url('../fonts/Geometria-Medium.woff') format('woff'),
+	url('../fonts/Geometria-Medium.woff2') format('woff2'),
+	url('../fonts/Geometria-Medium.ttf') format('truetype'),
+	url('../fonts/Geometria-Medium.otf') format('otf');
+	font-weight: medium;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Geometria-Bold';
+	src: url('../fonts/Geometria-Bold.eot');
+	src: url('../fonts/Geometria-Bold.eot?iefix') format('eot'),
+	url('../fonts/Geometria-Bold.woff') format('woff'),
+	url('../fonts/Geometria-Bold.woff2') format('woff2'),
+	url('../fonts/Geometria-Bold.ttf') format('truetype'),
+	url('../fonts/Geometria-Bold.otf') format('otf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'SFUIText-Medium';
+	src: url('../fonts/SFUIText-Medium.eot');
+	src: url('../fonts/SFUIText-Medium.eot?iefix') format('eot'),
+	url('../fonts/SFUIText-Medium.woff') format('woff'),
+	url('../fonts/SFUIText-Medium.woff2') format('woff2'),
+	url('../fonts/SFUIText-Medium.ttf') format('truetype'),
+	url('../fonts/SFUIText-Medium.otf') format('otf');
+	font-weight: medium;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'SFUIText-Bold';
+	src: url('../fonts/SFUIText-Bold.eot');
+	src: url('../fonts/SFUIText-Bold.eot?iefix') format('eot'),
+	url('../fonts/SFUIText-Bold.woff') format('woff'),
+	url('../fonts/SFUIText-Bold.woff2') format('woff2'),
+	url('../fonts/SFUIText-Bold.ttf') format('truetype'),
+	url('../fonts/SFUIText-Bold.otf') format('otf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'SFUIText-Regular';
+	src: url('../fonts/SFUIText-Regular.eot');
+	src: url('../fonts/SFUIText-Regular.eot?iefix') format('eot'),
+	url('../fonts/SFUIText-Regular.woff') format('woff'),
+	url('../fonts/SFUIText-Regular.woff2') format('woff2'),
+	url('../fonts/SFUIText-Regular.ttf') format('truetype'),
+	url('../fonts/SFUIText-Regular.otf') format('otf');
+	font-style: normal;
+}

@@ -1,0 +1,312 @@
+/*маленький ноутбук*/
+@media(max-width: 1199.98px){
+    .menu__item{
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    .menu li a{
+        font-size: 1.21em;
+    }
+    .service-app{
+        height: 475px;
+    }
+    .service-app-wrap .row .col-12:nth-child(1) .service-app, .service-app-wrap .row .col-12:nth-child(3) .service-app{
+        -webkit-background-size: 160%;
+             -o-background-size: 160%;
+                background-size: 160%;
+    }
+    .service-app-wrap .row .col-12:nth-child(2) .service-app{
+        -webkit-background-size: 150%;
+             -o-background-size: 150%;
+                background-size: 150%;
+        width: 123%;
+        left: -12%;
+        height: 550px;
+    }
+    .service-app__img img{
+        width: 45%;
+    }
+    .service-app-wrap .row .col-12:nth-child(2) .service-app img{
+        width: 65%;
+    }
+    #service{
+        background: url(../img/coub-bg.png) repeat-x left center;
+        -webkit-background-size: cover;
+             -o-background-size: cover;
+                background-size: cover;
+            padding-bottom: 10px;
+    }
+    .some-text__p{
+        padding: 10px 0 20px;
+    }
+    .partner-slider__img{
+        height: 100px;
+    }
+    .partner-slider__img_w-h-m{
+        width: 100% !important;
+        height: auto;
+        margin: 33px 0;
+    }
+    #footer:before, #footer:after{
+        -webkit-background-size: 130%;
+             -o-background-size: 130%;
+                background-size: 130%;
+    }
+    .footer-social__link{
+        height: 35px;
+        width: 35px;
+        margin-right: 8px;
+        font-size: 1.2em;
+    }
+    .footer-contact__list{
+        font-size: 0.98em;
+    }
+
+    /*===Contact-Page===*/
+    .contact-b__designation_width{
+        width: 100%;
+    }
+    .contact-b__item:nth-child(3){
+        height: 140px;
+    }
+    .contact-b__item:nth-child(4), .contact-b__item:nth-child(5), .contact-b__item:nth-child(6){
+        margin-left: 140px;
+        top: -45px;
+        margin-bottom: 25px;
+    }
+}
+
+/*Планшет*/
+@media (max-width: 991.98px){
+    .top-contact{
+        font-size: 1.2em;
+    }
+    .logo img{
+        width: 130%;
+    }
+    .main-menu{
+        padding: 10px 0;
+    }
+    .navbar{
+        margin-left: 15px;
+    }
+    .menu__item{
+        padding: 20px 0 15px 9px;   
+    }
+    .menu li a{
+        font-size: 1em;
+    }
+    .service-app{
+        padding: 10px;
+        height: 400px;
+    }
+    .service-app__title{
+        font-size: 1.4em;
+    }
+    .service-app__link{
+        font-size: 1;
+    }
+    .service-app-wrap .row .col-12:nth-child(2) .service-app .service-app__title{
+        line-height: 1em;
+    }
+    .service-app-wrap .row .col-12:nth-child(2) .service-app{
+        padding: 20px;
+    }
+     .service-app-wrap .row .col-12:nth-child(1) .service-app, .service-app-wrap .row .col-12:nth-child(3) .service-app{
+        -webkit-background-size: 185%;
+             -o-background-size: 185%;
+                background-size: 185%;
+    }
+    .service-app-wrap .row .col-12:nth-child(2) .service-app{
+        -webkit-background-size: 157%;
+             -o-background-size: 157%;
+                background-size: 157%;
+        width: 135%;
+        left: -17%;
+        height: 460px;
+    }
+    .service-app__sub-title{
+        padding: 0;
+        font-size: 0.9em;
+    }
+    .some-wrap{
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .some-gradient{
+        margin-top: 25px;
+    }
+    .some-gradient, .some-img{
+        height: 270px;
+    }
+    .some-text__p:nth-child(3){
+        width: 180%;
+        margin-left: -77%;
+    }
+    .partner-slider__img{
+        height: 90px;
+        width: 60% !important;
+    }
+    .partner-slider__img_w-h-m{
+        width: 100%!important;
+        height: 45px!important;
+        margin: 29px 0;
+    }
+    #partner{
+        padding-bottom: 0;
+    }
+    .footer-social__link{
+        height: 40px;
+        width: 40px;
+        font-size: 1.3em;
+        margin-bottom: 10px;
+        margin-left: 9px;
+    }
+    .footer-solution__link{
+        font-size: 0.9em;
+    }
+    .footer-contact__list{
+        font-size: 0.9em;
+        width: 130%;
+    }
+    #footer{
+        padding: 20px 0;
+    }
+
+    /*===Contact-Page===*/
+    
+    #contact{
+        padding: 40px 0;
+    }
+    #map, #map a{
+        width: 100%;
+    }
+    .contact-b__name{
+        font-size: 1em;
+    }
+    .contact-b__designation{
+        font-size: 0.9em;
+    }
+    .contact-b__item:nth-child(4), .contact-b__item:nth-child(5), .contact-b__item:nth-child(6){
+        margin-left: 60px;
+    }
+}    
+    
+/*Маленький планшет*/
+@media (max-width: 767.98px) {
+  
+    .top-contact__phone{
+        display: block;
+        margin-top: 10px;
+    }
+    .lang{
+        margin-top: 0;
+        margin-left: -10px;
+    }
+    .lang a{
+        font-size: 1.5em;
+    }
+    .lang__en:after{
+        display: none;
+    }
+    .logo img{
+        width: 75%;
+    }
+    .navbar-toggler{
+        font-size: 2em;
+        position: absolute;
+        top: -45px;
+        right: -10px;
+    }
+    #service{
+        padding: 40px 0 20px;
+    }
+    .service-app__img{
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+    .service-app__img img, .service-app-wrap .row .col-12:nth-child(2) .service-app img{
+        width: 30%;
+    }
+
+    .service-app{
+        margin-bottom: 25px;
+        height: auto;
+    }
+    .service-app-wrap .row .col-12:nth-child(2) .service-app{
+        width: 100%;
+        position: static;   
+        height: auto;
+    }
+    .service-app-wrap .row .col-12:nth-child(1) .service-app, .service-app-wrap .row .col-12:nth-child(3) .service-app{
+    -webkit-background-size: 105%;
+         -o-background-size: 105%;
+            background-size: 105%;       
+    }
+    .some-gradient{
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .some-text__p:nth-child(3){
+        width: 100%;
+        margin-left: 0;
+    }
+    .partner-slider__img{
+        height: auto;
+        width: 45% !important;
+    }
+    .partner-slider__img_w-h-m{
+        width: 45% !important;
+        margin: 29px auto;
+    }
+    .partner-slider__title{
+        font-size: 1.2em;
+    }
+    .footer-social{
+        padding-right: 0;
+    }
+    .footer-social__logo{
+        text-align: center;
+    }
+    .footer-social__logo-png{
+        width: 80%;
+    }
+    .footer-solution__title, .footer-contact__title{
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    #footer{
+        overflow-x: hidden;
+    }
+    #footer:before, #footer:after{
+        -webkit-background-size: 100%;
+             -o-background-size: 100%;  
+                background-size: 100%; 
+        width: 50%;
+        z-index: -1; 
+    }   
+    
+
+    /*===Contact-Page===*/
+
+    .contact-b-wrap-list{
+        list-style-position: inherit;
+        -webkit-column-count: auto; 
+           -moz-column-count: auto;
+                column-count: auto;
+        list-style-type: none;
+    }
+    .contact-b__item:nth-child(3){
+        height: auto;
+    }
+    .contact-b__item:nth-child(4), .contact-b__item:nth-child(5), .contact-b__item:nth-child(6){
+        margin-left: 0;
+        margin-bottom: 15px;
+        top: 0;
+    }
+}
+
+/*Телефон*/
+@media (max-width: 575.98px){
+    
+}
